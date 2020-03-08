@@ -21,7 +21,3 @@ export class CdkStack extends cdk.Stack {
     });
   }
 }
-
-const app = new cdk.App();
-new CdkStack(app, 'lambda-example');
-app.synth();
